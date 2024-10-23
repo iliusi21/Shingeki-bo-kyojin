@@ -5,35 +5,35 @@
 
 /* Estilos generales para el  body*/
 body {
-    font-size: 16px; /* Tamaño de la letra */
-    font-family: 'Prociono', serif; /* Familia de fuente de Google Fonts */
-    color: var(--text-color); /* Color de la letra usando una variable CSS */
-    background-color: var(--background-color); /* Color de fondo usando una variable CSS */
+    font-size: 16px; 
+    font-family: 'Prociono', serif; 
+    color: var(--text-color); 
+    background-color: var(--background-color); 
     margin: 0;
     padding: 0;
 }
 
 /* Variables CSS */
 :root {
-    --text-color: #333333; /* Variable para el color de la letra */
-    --background-color: #f4f4f9; /* Variable para el color de fondo */
-    --link-color: #52dff1; /* Variable para el color de los enlaces */
+    --text-color: #333333; 
+    --background-color: #f4f4f9; 
+    --link-color: #52dff1; 
 }
 
 /* Estilos para enlaces */
 a {
-    color: var(--link-color); /* Color de los enlaces */
+    color: var(--link-color); 
     text-decoration: none;
 }
 
 /* Estado hover para enlaces */
 a:hover {
-    color: #94e963; /* Color de letra en estado hover */
+    color: #94e963; 
 }
 
 /* Imágenes y iframes responsivos */
 img, iframe {
-    max-width: 100%; /* Se adaptan al ancho del contenedor */
+    max-width: 100%; 
     height: auto;
     
     
@@ -42,7 +42,7 @@ img, iframe {
 
 /* Tablas adaptables */
 table {
-    width: 100%; /* La tabla ocupa todo el ancho de su contenedor */
+    width: 100%; 
     border-collapse: collapse;
     table-layout: fixed;
 }
