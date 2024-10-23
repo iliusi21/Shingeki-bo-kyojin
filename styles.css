@@ -1,46 +1,63 @@
+/* Importa la fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Prociono&display=swap');
+
+
+
+/* Estilos generales para el  body*/
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
+    font-size: 16px; /* Tamaño de la letra */
+    font-family: 'Prociono', serif; /* Familia de fuente de Google Fonts */
+    color: var(--text-color); /* Color de la letra usando una variable CSS */
+    background-color: var(--background-color); /* Color de fondo usando una variable CSS */
+    margin: 0;
+    padding: 0;
 }
 
-header {
-  background: #333;
-  color: #fff;
-  padding: 10px 0;
-  text-align: center;
+/* Variables CSS */
+:root {
+    --text-color: #333333; /* Variable para el color de la letra */
+    --background-color: #f4f4f9; /* Variable para el color de fondo */
+    --link-color: #0066cc; /* Variable para el color de los enlaces */
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
+/* Estilos para enlaces */
+a {
+    color: var(--link-color); /* Color de los enlaces */
+    text-decoration: none;
 }
 
-nav ul li {
-  display: inline;
-  margin: 0 15px;
+/* Estado hover para enlaces */
+a:hover {
+    color: #ff6600; /* Color de letra en estado hover */
 }
 
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
+/* Imágenes y iframes responsivos */
+img, iframe {
+    max-width: 100%; /* Se adaptan al ancho del contenedor */
+    height: auto;
 }
 
-h1, h2 {
-  color: #333;
+/* Tablas adaptables */
+table {
+    width: 100%; /* La tabla ocupa todo el ancho de su contenedor */
+    border-collapse: collapse;
 }
 
-section {
-  padding: 20px;
+/* Clases utilitarias */
+.mt-1 { margin-top: 10px; }
+.mt-2 { margin-top: 20px; }
+.mb-1 { margin-bottom: 10px; }
+.mb-2 { margin-bottom: 20px; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.font-bold { font-weight: bold; }
+.font-italic { font-style: italic; }
+.uppercase { text-transform: uppercase; }
+.lowercase { text-transform: lowercase; }
+
+/* Uso de variables en otras reglas */
+h1, h2, h3 {
+    color: var(--text-color);
 }
 
-footer {
-  text-align: center;
-  padding: 10px;
-  background: #333;
-  color: #fff;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
+
