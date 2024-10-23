@@ -17,7 +17,7 @@ body {
 :root {
     --text-color: #333333; /* Variable para el color de la letra */
     --background-color: #f4f4f9; /* Variable para el color de fondo */
-    --link-color: #0066cc; /* Variable para el color de los enlaces */
+    --link-color: #52dff1; /* Variable para el color de los enlaces */
 }
 
 /* Estilos para enlaces */
@@ -28,12 +28,15 @@ a {
 
 /* Estado hover para enlaces */
 a:hover {
-    color: #ff6600; /* Color de letra en estado hover */
+    color: #94e963; /* Color de letra en estado hover */
 }
 
 /* Imágenes y iframes responsivos */
 img, iframe {
     max-width: 100%; /* Se adaptan al ancho del contenedor */
+    height: auto;
+    img {
+    max-width: 100%; /* Asegura que las imágenes no se desborden */
     height: auto;
 }
 
