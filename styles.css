@@ -35,15 +35,15 @@ a:hover {
 img, iframe {
     max-width: 100%; /* Se adaptan al ancho del contenedor */
     height: auto;
-    img {
-    max-width: 100%; /* Asegura que las imágenes no se desborden */
-    height: auto;
+    
+    
 }
 
 /* Tablas adaptables */
 table {
     width: 100%; /* La tabla ocupa todo el ancho de su contenedor */
     border-collapse: collapse;
+    table-layout: fixed;
 }
 
 /* Clases utilitarias */
