@@ -7,4 +7,4 @@
 Este proyecto es una mejora visual de mi práctica sobre *Shingeki no Kyojin* usando Bootstrap.
 
 - [Referencia del sitio](https://ejemplo.com)
-- [Despliegue en GitHub Pages](https://usuario.github.io/repositorio)
+- [Despliegue en GitHub Pages](file:///C:/Users/ilius/OneDrive/Escritorio/Shingeki-no-kyojin/practica14index.html#)
