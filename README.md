@@ -2,4 +2,9 @@
 
 **Nombre:** Iliusi Donají Hoyos Reyna
 
-**Enlace a GitHub Pages:** [Mi Proyecto](https://iliusi21.github.io/Shingeki-bo-kyojin/)
+# Práctica 14: Shingeki no Kyojin con Bootstrap
+
+Este proyecto es una mejora visual de mi práctica sobre *Shingeki no Kyojin* usando Bootstrap.
+
+- [Referencia del sitio](https://ejemplo.com)
+- [Despliegue en GitHub Pages](https://usuario.github.io/repositorio)
