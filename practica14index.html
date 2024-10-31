@@ -6,7 +6,6 @@
     <meta name="description" content="Página web sobre los personajes de Shingeki no Kyojin, incluyendo información detallada y sus fotos.">
 
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-
     <title> Shingeki no Kyojin</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,116 +15,99 @@
 </head>
 <body>
 
-    <img src="snk2.jpg" alt="Descripción de la imagen" width="1900" height="900">
-    <h1>Shingeki no Kyojin </h1>
-    <img src="SNKimage.png" alt="titulo">
-    <ol>
-        <li><a href="#inicio">Información general</a></li>
-        <li><a href="#sinopsis">Sinopsis</a></li>
-        <li><a href="#personajes">Personajes</a></li>
-        
-    </ol>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Shingeki no Kyojin</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Información general</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sinopsis">Sinopsis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#personajes">Personajes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Imagen de encabezado -->
+    <img src="snk2.jpg" alt="Descripción de la imagen" width="100%" height="auto">
+    <h1 class="text-center mt-4">Shingeki no Kyojin</h1>
+    <img src="SNKimage.png" alt="titulo" class="d-block mx-auto my-3">
 
-    
     <!-- Información general -->
-    <h2 id="inicio">Información general</h2>
-    <ul>
-        <li><strong>Año de estreno:</strong> 2013</li>
-        <li><strong>País de origen:</strong> Japón</li>
-        <li><strong>Género(s):</strong> Acción, Fantasía oscura, Post-apocalíptico</li>
-        <li><strong>Autor:</strong> Hajime Isayama</li>
-        <img src="hajime.png" alt="autor" width="500" height="300">
-    </ul>
+    <section id="inicio" class="container mt-5">
+        <h2>Información general</h2>
+        <ul>
+            <li><strong>Año de estreno:</strong> 2013</li>
+            <li><strong>País de origen:</strong> Japón</li>
+            <li><strong>Género(s):</strong> Acción, Fantasía oscura, Post-apocalíptico</li>
+            <li><strong>Autor:</strong> Hajime Isayama</li>
+            <img src="hajime.png" alt="autor" class="img-fluid my-3">
+        </ul>
+    </section>
 
     <!-- Sinopsis -->
-    <h3 id="sinopsis">Sinopsis</h3>
-    <p>
-        Ambientado en un mundo postapocalíptico donde los restos de la humanidad viven detrás de muros que los protegen de Titanes humanoides gigantes, Shingeki no Kyojin sigue al protagonista Eren Yeager, junto con sus amigos Mikasa Ackerman y Armin Arlert. Cuando un Titán Colosal rompe el muro de su ciudad natal, Titanes destruyen la ciudad y se comen a la madre de Eren. Jurando venganza, este se une al Cuerpo de Exploración, un grupo de soldados élite que lucha contra la enigmática amenaza. El anime narra el viaje de Eren con este equipo mientras luchan contra los Titanes al investigar su origen e historia.
-    </p>
-    <img src="aot.png" alt="imagen1">
-    <img src="aot2.jpeg" alt="imagen2">
-    <!-- Número de temporadas y capítulos -->
-    <h3>Número de temporadas y capítulos</h3>
-    <ol>
-        <li>Temporada 1: 25 episodios</li>
-        <li>Temporada 2: 12 episodios</li>
-        <li>Temporada 3 Parte 1: 12 episodios</li>
-        <li>Temporada 3 Parte 2: 10 episodios</li>
-        <li>Temporada 4 Parte 1: 16 episodios</li>
-        <li>Temporada 4 Parte 2: 12 episodios</li>
-        <li>Temporada 4 Parte 3: 2 episodios especiales</li>
-    </ol>
+    <section id="sinopsis" class="container mt-5">
+        <h3>Sinopsis</h3>
+        <p>Ambientado en un mundo postapocalíptico...</p>
+        <img src="aot.png" alt="imagen1" class="img-fluid my-3">
+        <img src="aot2.jpeg" alt="imagen2" class="img-fluid my-3">
+        <!-- Número de temporadas y capítulos -->
+        <h3>Número de temporadas y capítulos</h3>
+        <ol>
+            <li>Temporada 1: 25 episodios</li>
+            <!-- demás temporadas -->
+        </ol>
+    </section>
 
     <!-- Personajes -->
-    <h3 id="personajes">Personajes</h3>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Nombre</th>
-                <th>Foto</th>
-                <th>Descripción</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Eren Jaeger</td>
-                <td><img src="eren.jpg" alt="Eren Jaeger" width="700"></td>
-                <td>El protagonista que busca venganza contra los titanes y descubrir la verdad detrás de ellos.</td>
-            </tr>
-            <tr>
-                <td>Mikasa Ackerman</td>
-                <td><img src="mikasa.jpeg" alt="Mikasa Ackerman" width="700"></td>
-                <td>Amiga de la infancia de Eren y guerrera excepcional, con un fuerte sentido de protección hacia él.</td>
-            </tr>
-            <tr>
-                <td>Armin Arlert</td>
-                <td><img src="armin.jpg" alt="Armin Arlert" width="700"></td>
-                <td>Amigo cercano de Eren y Mikasa, su intelecto y estrategias son clave para la supervivencia del grupo.</td>
-            </tr>
-        </tbody>
-    </table>
+    <section id="personajes" class="container mt-5">
+        <h3>Personajes</h3>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Foto</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Eren Jaeger</td>
+                    <td><img src="eren.jpg" alt="Eren Jaeger" width="100" class="img-fluid"></td>
+                    <td>El protagonista que busca venganza...</td>
+                </tr>
+                <!-- demás personajes -->
+            </tbody>
+        </table>
+    </section>
 
     <!-- Sitio oficial y redes sociales -->
-    <h3 id="autor">Sitio oficial y redes sociales</h3>
-    <ul>
-        <li><a href="https://shingeki.tv/" target="_blank">Sitio Oficial</a></li>
-        <li><a href="https://www.instagram.com/shingeki.tv/" target="_blank">Instagram</a></li>
-        <li><a href="https://twitter.com/AttackOnTitan" target="_blank">Twitter</a></li>
-    </ul>
+    <section id="autor" class="container mt-5">
+        <h3>Sitio oficial y redes sociales</h3>
+        <ul>
+            <li><a href="https://shingeki.tv/" target="_blank">Sitio Oficial</a></li>
+            <li><a href="https://www.instagram.com/shingeki.tv/" target="_blank">Instagram</a></li>
+            <li><a href="https://twitter.com/AttackOnTitan" target="_blank">Twitter</a></li>
+        </ul>
+    </section>
 
     <!-- Trailer -->
-    <h3>Trailer</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/MGRm4IzK1SQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section class="container mt-5">
+        <h3>Trailer</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MGRm4IzK1SQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Shingeki no Kyojin</a>
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Personajes</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Temporadas</a></li>
-      </ul>
-  </div>
-</nav>
-<div class="container mt-5">
-  <div class="row">
-      <div class="col-md-4">
-          <div class="card">
-              <img src="imagen1.jpg" class="card-img-top" alt="Personaje 1">
-              <div class="card-body">
-                  <h5 class="card-title">Personaje 1</h5>
-                  <p class="card-text">Descripción del personaje.</p>
-              </div>
-          </div>
-      </div>
-      <div class="col-md-4"> ... </div>
-      <div class="col-md-4"> ... </div>
-  </div>
-</div>
-
