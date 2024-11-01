@@ -1,5 +1,9 @@
-# Shingeki no Kyojin - HTML Project
+# Proyecto Shingeki no Kyojin
 
-**Nombre:** Iliusi Donají Hoyos Reyna
+Este es un proyecto donde he trabajado en mi práctica sobre *Shingeki no Kyojin*.
 
-**Enlace a GitHub Pages:** [Mi Proyecto](https://iliusi21.github.io/Shingeki-bo-kyojin/)
+## Enlaces
+
+- [Visita mi página en GitHub Pages](https://ilus.github.io/Shingeki-no-kyojin/)
+- [Referencia a Ejemplo] no tengo
+
